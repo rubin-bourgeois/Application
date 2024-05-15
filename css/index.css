@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+header{
+    margin: 0;
+    background-color: hsla(204, 12%, 92%, 0.744);
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    gap: 200px;
+    list-style: none;
+    padding-left: 140px;
+}
+header ul a{
+    text-decoration: none;
+    color: rgb(250, 130, 130);
+    font-size: 25px;
+}
+header a{
+    text-decoration: none;
+}
+header h1:hover{
+    transform: scale(1.1);
+}
+header h1 {
+    transition: 2s;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 27px;
+    color: rgb(244, 111, 111);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#icon {
+    float: right;
+    padding-left: 770px;
+    width: 5%;
+}
+#icon:hover {
+    transform: scale(5);
+    transition: 4s step-start;
+    
+}
+header .menu{
+    display: flex;
+}
+.firstsec{
+    background-color: rgb(241, 234, 234);
+}
+.firstsec img{
+    margin-top: 30px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 700px;
+}
+.firstsec img:hover {
+    transform: scale(0.3);
+    transition: 0.8s ease-in-out;
+}
+.firstsec p{
+    margin-left: 400px;
+    margin-right: 40px;
+    color: rgb(244, 111, 111);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.firstsec .azerty{
+    margin-top: 30px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+#sidebar{
+    position:fixed;
+    left: 0;  
+    margin: 0;
+    background-color: rgb(16, 16, 16);
+    top: 158px;
+    bottom: 0;
+}
+#sidebar ul {
+    display: grid;
+    gap: 90px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 80px;
+    margin-right: 30px;
+    list-style: none;
+}
+
+
+#sidebar ul a{
+    color: rgb(248, 214, 194);
+}
+#sidebar a{
+    text-decoration: none;
+    color: rgb(239, 121, 110);
+    padding-top: 30px;
+}
